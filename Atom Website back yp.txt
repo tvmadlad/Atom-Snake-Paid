@@ -1,0 +1,13 @@
+This game is still being worked on with regular updates and I thank everyone for their support by playing my game and giving feedback.
+
+Snake, the game we all know and love but with a new theme and multiple control schemes to choose from. The game can be played with ease by anyone. Also with Atom Snake there is more than just the first basic snake level, there are 5 levels to play and unlock. There are also multiple skins to unlock for your snake, so you can choose what look you want for your snake. Play and set new Hi-Scores, challenge yourself to beat your score, and compete with your friends.
+
+Developer: Thomas Vardy
+
+
+- 5 levels 
+- 4 skins 
+- 3 options for controls
+
+
+https://play.google.com/apps/testing/uk.co.atomapps.atomsnake
