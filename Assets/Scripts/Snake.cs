@@ -58,6 +58,8 @@ public class Snake : MonoBehaviour {
 	public Transform BorderLeft;
 	public Transform BorderRight;
 
+	public bool Loading;
+
 	// Did the snake eat something?
 	bool ate = false;
 	
@@ -143,7 +145,7 @@ public class Snake : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (Application.isLoadingLevel)
+		if (Loading)
 			LoadingScreen.SetActive (true);
 
 
@@ -256,7 +258,7 @@ public class Snake : MonoBehaviour {
 				
 				int rand = Random.Range (0, 4);
 				do {
-					rand = Random.Range (0, 4);
+					rand = Random.Range (0, 3);
 					
 					if ( rand == 0)
 						CurrentTailPrefab = PurpleTailPrefab;

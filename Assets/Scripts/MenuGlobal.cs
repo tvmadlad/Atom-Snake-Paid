@@ -39,6 +39,8 @@ public class MenuGlobal : MonoBehaviour {
 
 	public bool IsSettingsOpen;
 
+	public bool Loading;
+
 
 	// Use this for initialization
 	void Start () {
@@ -76,7 +78,7 @@ public class MenuGlobal : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-			if (Application.isLoadingLevel) 
+			if (Loading) 
 			LoadingScreen.SetActive (true);
 
 		
@@ -146,7 +148,7 @@ public class MenuGlobal : MonoBehaviour {
 				
 				PlayerPrefs.SetString ("level3", "true");
 				int AC = PlayerPrefs.GetInt ("AtomCoin");
-				PlayerPrefs.SetInt ("AtomCoin", (AC - 30));
+				PlayerPrefs.SetInt ("AtomCoin", (AC - 40));
 		}
 	}
 	}
@@ -205,21 +207,23 @@ public class MenuGlobal : MonoBehaviour {
 	}
 
 	public void LoadBassicLevel(){
-
+		LoadingScreen.SetActive (true);
 		Application.LoadLevel (1);
 	}
 	public void LoadSecondLevel (){
-		if (PlayerPrefs.GetString ("level2") == "true")
+		if (PlayerPrefs.GetString ("level2") == "true") {
+			LoadingScreen.SetActive (true);
 			Application.LoadLevel (2);
-		else{ 
+		}else{ 
 			PlayMenu.SetActive (false);
 			StoreMenu.SetActive (true);
 		}
 	}
 	public void LoadThirdLevel (){
-		if (PlayerPrefs.GetString ("level3") == "true")
+		if (PlayerPrefs.GetString ("level3") == "true") {
+			LoadingScreen.SetActive (true);
 			Application.LoadLevel (3);
-		else{ 
+	} else{ 
 			PlayMenu.SetActive (false);
 			StoreMenu.SetActive (true);
 		}
