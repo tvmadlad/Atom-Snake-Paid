@@ -44,6 +44,7 @@ public class MenuGlobal : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		MusicVolume.volume = 0;
 		PlayMenu.SetActive (false);
 		StoreMenu.SetActive (false);
 		SettingsMenu.SetActive (false);

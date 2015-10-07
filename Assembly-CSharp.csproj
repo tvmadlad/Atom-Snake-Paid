@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{50BB3DE7-103B-46AF-9242-0517DE7773AF}</ProjectGuid>
+	<ProjectGuid>{1492FECA-2096-441B-0C8F-40F448FE6447}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\AtomCoin.cs" />
      <Compile Include="Assets\Scripts\FoodSpawner.cs" />
      <Compile Include="Assets\Scripts\Global.cs" />
+     <Compile Include="Assets\Scripts\HiScores.cs" />
      <Compile Include="Assets\Scripts\MenuGlobal.cs" />
      <Compile Include="Assets\Scripts\Snake.cs" />
      <None Include="Assets\TouchScript\Shaders\DebugDepthTest.shader" />
@@ -61,7 +62,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="TouchScript">
- <HintPath>D:/Atom-Snake-Paid 2/Assets/TouchScript/Plugins/TouchScript.dll</HintPath>
+ <HintPath>C:/Users/surfacepeo/Documents/Unity/Atom-Snake-Paid/Assets/TouchScript/Plugins/TouchScript.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

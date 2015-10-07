@@ -74,6 +74,7 @@ public class Snake : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		BackgroundMusic.volume = 0;
 		LoadingScreen.SetActive (false);
 		EndGsme.SetActive (false);
 
