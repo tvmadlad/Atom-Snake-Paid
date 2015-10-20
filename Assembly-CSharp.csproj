@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\AtomCoin.cs" />
      <Compile Include="Assets\Scripts\FoodSpawner.cs" />
      <Compile Include="Assets\Scripts\Global.cs" />
+     <Compile Include="Assets\Scripts\HiScorePannel.cs" />
      <Compile Include="Assets\Scripts\HiScores.cs" />
      <Compile Include="Assets\Scripts\MenuGlobal.cs" />
      <Compile Include="Assets\Scripts\Snake.cs" />

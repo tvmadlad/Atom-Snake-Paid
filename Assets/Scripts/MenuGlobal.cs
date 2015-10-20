@@ -36,6 +36,7 @@ public class MenuGlobal : MonoBehaviour {
 	public GameObject ThemeStorePage;
 	public GameObject CoinStorePage;
 	public GameObject LoadingScreen;
+	public GameObject Leaderboards;
 
 	public bool IsSettingsOpen;
 
@@ -52,6 +53,7 @@ public class MenuGlobal : MonoBehaviour {
 		ThemeStorePage.SetActive (false);
 		CoinStorePage.SetActive (false);
 		LoadingScreen.SetActive (false);
+		Leaderboards.SetActive (false);
 		BlueTick.gameObject.SetActive (false);
 		RedTick.gameObject.SetActive (false);
 		GoldTick.gameObject.SetActive (false);
