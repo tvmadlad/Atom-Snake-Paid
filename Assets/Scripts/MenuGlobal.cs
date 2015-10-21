@@ -38,7 +38,12 @@ public class MenuGlobal : MonoBehaviour {
 	public GameObject LoadingScreen;
 	public GameObject Leaderboards;
 
+	public GameObject ExitButton;
+
 	public bool IsSettingsOpen;
+	public bool IOS;
+	public bool Android;
+	public bool PC;
 
 	public bool Loading;
 
@@ -61,6 +66,20 @@ public class MenuGlobal : MonoBehaviour {
 		RainbowTick.gameObject.SetActive (false);
 		//PlayerPrefs.SetInt ("AtomCoin", 0);
 		//PlayerPrefs.SetInt ("firstLaunch", 0);
+		
+		#if UNITY_ANDROID
+		IOS = false;
+		Android = false;
+		PC = false;
+		#elif UNITY_IPHONE
+		IOS = true;
+		Android = false;
+		PC =false;
+		#endif
+
+		if (IOS) {
+			ExitButton.SetActive (false);
+		}
 
 		bool firstLaunch = (PlayerPrefs.GetInt ("firstLaunch") == 0);
 		if (firstLaunch) {
