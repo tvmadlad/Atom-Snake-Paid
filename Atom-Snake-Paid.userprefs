@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MenuGlobal.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HiScores.cs">
     <Files>
-      <File FileName="..\Atom-Snake-Free\Assets\Scripts\HiScores.cs" Line="41" Column="45" />
-      <File FileName="Assets\Scripts\MenuGlobal.cs" Line="83" Column="1" />
+      <File FileName="Assets\Scripts\HiScorePannel.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\HiScores.cs" Line="40" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

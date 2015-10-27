@@ -37,7 +37,9 @@ public class HiScores : MonoBehaviour {
 			HiScorePannel hs = g.GetComponent <HiScorePannel>();
 			hs.LevelNumber = i + 1;
 			hs.Init();
+
 			RectTransform trans = g.GetComponent <RectTransform>();
+			trans.localScale = new Vector3 (1, 1, 1);
 
 			int col = i % cols;
 			int row = i / rows;
