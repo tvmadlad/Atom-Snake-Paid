@@ -1,0 +1,4 @@
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\Assembly-CSharp-firstpass-uwp.csproj;arm
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\Assembly-CSharp-firstpass-uwp.csproj;arm
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\Assembly-CSharp-uwp.csproj;arm
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\Build\Windows 10\Atom snake\Atom snake.csproj;arm

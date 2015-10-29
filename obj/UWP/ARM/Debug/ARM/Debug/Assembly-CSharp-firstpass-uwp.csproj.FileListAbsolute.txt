@@ -1,0 +1,17 @@
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\bin\UWP\ARM\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\bin\UWP\ARM\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\bin\UWP\ARM\Debug\Assembly-CSharp-firstpass.pri
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass-uwp.csprojResolveAssemblyReference.cache
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\priconfig.xml
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\priconfig.xml.intermediate
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\layout.resfiles
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\layout.resfiles.intermediate
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\resources.resfiles
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\resources.resfiles.intermediate
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\pri.resfiles
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\pri.resfiles.intermediate
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\qualifiers.txt
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\surfacepeo\Documents\Unity\Atom-Snake-Paid\obj\UWP\ARM\Debug\ARM\Debug\MultipleQualifiersPerDimensionFound.txt

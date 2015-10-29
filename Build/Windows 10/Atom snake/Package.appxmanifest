@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  <Identity Name="2846AtomMobileApplication.AtomSnake" Publisher="CN=888E7538-C731-4D7D-B1D2-B74F6F4C7459" Version="1.1.1.0" />
+  <mp:PhoneIdentity PhoneProductId="ed4714bc-291b-445f-8896-b98c671dada8" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Atom Snake</DisplayName>
+    <PublisherDisplayName>Atom Mobile Applications</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Atomsnake.App">
+      <uap:VisualElements DisplayName="Atom Snake" Square150x150Logo="Assets\MediumTile.png" Square44x44Logo="Assets\SmallLogo.png" Description="Atom snake" BackgroundColor="#000000">
+        <uap:DefaultTile Wide310x150Logo="Assets\WideTile.png">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+</Package>
